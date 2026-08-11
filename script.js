@@ -3,7 +3,7 @@
 // ========================================
 
 const languages = {
-    en: "index-en.html",
+    en: "index.html",
     ar: "index-ar.html"
 };
 
