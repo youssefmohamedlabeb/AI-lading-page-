@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Defines the character encoding used by the page -->
+        <meta charset="UTF-8">
+
+        <!-- Makes the page responsive on different screen sizes -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Sets the title displayed in the browser tab -->
+        <title>AI Smart Assistant</title>
+
+        <!-- Links the external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- Main navigation bar containing the logo and navigation links -->
+        <header  class="navber">
+
+            <!-- Website logo -->
+            <div class="logo">
+                <span class="logo-hightlight">AI</span>.pro
+            </div>
+
+            <!-- Navigation menu -->
+            <nav class="nav">
+
+                <!-- Link to the Features section -->
+                <a href="#features">features</a>
+
+                <!-- Link to the Pricing section -->
+                <a href="#pricing">prices</a>
+
+                <!-- Link to the language version of the page -->
+                <div class="language-dropdown">
+                    <button class="language-btn" id="languageBtn">
+                  🌐 language
+                    </button>
+
+                    <div class="language-menu" id="languageMenu">
+                        <a href="index-ar.html" data-language="ar">🇪🇬 العربية</a>
+                        <a href="index-en.html" data-language="en">🇺🇸 English</a>
+                    </div>
+                </div>
+
+                <!-- Call-to-action button for starting the service -->
+                <a href="#Try Free" class="btn-primary">Try Free</a>
+
+                <!-- Sign-in button -->
+                <a href="#Sign in" class="btn-primary">Sign in</a>
+            </nav>
+        </header>
+
+        <!-- Hero section: the main introductory section of the landing page -->
+        <section id="hero-section" class="hero-section">
+
+            <!-- Contains the main hero content -->
+            <div class="hero-contant">
+
+                <!-- Small introductory text above the main heading -->
+                <span>✨ Your Future with <span class="AI-style">AI</span></span>
+
+                <!-- Main headline of the landing page -->
+                <h1>ld Faster with Smart <span class="AI-style">AI Assistant</span></h1>
+
+                <!-- Short description explaining the main value of the product -->
+                <p>Transform your ideas into reality with our powerful <span class="AI-style">AI assistant</span>. Automate your workflow, boost productivity, and get results in seconds.</p>
+
+                <!-- Main hero action buttons -->
+                <div class="hero-buttons">
+                    <button class="btn-primary">Get Started Free</button>
+                    <button class="btn-secondary">Explore Features</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Features section explaining the main benefits of the product -->
+        <section id="features" class="features">
+
+            <!-- Header content for the Features section -->
+            <div class="section-header">
+
+                <!-- Section label -->
+                <span>✨ Why Choose Us</span>
+
+                <!-- Features section headline -->
+                <h1>Everything You Need to Build Faster</h1>
+
+                <!-- Short description of the available features -->
+                <p>Discover powerful tools designed to automate your workflow, save you hours of manual effort, and take your productivity to the next level.</p>
+            </div>
+
+            <!-- Container holding all feature cards -->
+            <div class="cards-features">
+
+                <!-- First feature card -->
+                <div class="card-features">
+
+                    <!-- Feature icon -->
+                    <div class="icon-box">⚡</div>
+
+                    <!-- Feature title -->
+                    <h3>Lightning Fast</h3>
+
+                    <!-- Feature description -->
+                    <p>Generante high-quality results in milliseconds with our highly optimized <span class="AI-style">AI</span> engine.</p>
+                </div>
+
+                <!-- Second feature card -->
+                <div class="card-features">
+
+                    <!-- Feature icon -->
+                    <div class="icon-box">🤖</div>
+
+                    <!-- Feature title -->
+                    <h3>Smart Automation</h3>
+
+                    <!-- Feature description -->
+                    <p>Automate your daily repetitive tasks and focus your energy on growing your business.</p>
+                </div>
+
+                <!-- Third feature card -->
+                <div class="card-features">
+
+                    <!-- Feature icon -->
+                    <div class="icon-box">🛡️</div>
+
+                    <!-- Feature title -->
+                    <h3>Enterprise Security</h3>
+
+                    <!-- Feature description -->
+                    <p>Your data is fully encrypted and protected with industry-standard protocols.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing section containing the available subscription plans -->
+        <section id="pricing" class="pricing">
+
+            <!-- Header content for the Pricing section -->
+            <div class="section-header">
+
+                <!-- Pricing section label -->
+                <span>✨ Flexible pricing</span>
+
+                <!-- Pricing section headline -->
+                <h1>Simple Plans for Everyone</h1>
+
+                <!-- Short pricing description -->
+                <p>pgrade, downgrade, or cancel anytime.</p>
+            </div>
+
+            <!-- Container holding all pricing cards -->
+            <div class="cards">
+
+                <!-- Free plan card -->
+                <div class="card" id="Free">
+                    <ul>
+                        <li>name: Free Plan</li>
+                        <li>price: 0$ /month</li>
+                        <li>features: 
+                            <ul>
+                                <li>50 AI Generations per month</li>
+                                <li>Basic Access to Models</li>
+                                <li>Standard Support</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Free plan call-to-action button -->
+                    <button class="CTA-Button">Get Started Free</button>
+                </div>
+
+                <!-- Pro plan card -->
+                <div class="card" id="Pro">
+
+                    <!-- Indicates that this is the most popular plan -->
+                    <span>Most Popular</span>
+
+                    <ul>
+                        
+                        <li>name: Pro</li>
+                        <li>price: 19$ /month</li>
+                        <li>features:
+                            <ul>
+                                <li>Unlimited AI Generations</li>
+                                <li>Fast Processing Speed</li>
+                                <li>Access to Advanced Models</li>
+                                <li>Priority 24/7 Support</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Pro plan call-to-action button -->
+                    <button class="CTA-Button">Upgrade to Pro</button>
+                </div>
+
+                <!-- Enterprise plan card -->
+                <div class="card" id="Enterprise">
+                    <ul>
+                        <li>name: Enterprise</li>
+                        <li>price: 49$ /month</li>
+                        <li>features:
+                            <ul>
+                                <li>Everything in Pro</li>
+                                <li>Custom AI Workflows</li>
+                                <li>Dedicated Account Manager</li>
+                                <li>API Access Included</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Enterprise plan call-to-action button -->
+                    <button class="CTA-Button">Contact Sales</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section displaying user reviews -->
+        <section id="Testimonials" class="Testimonials">
+
+            <!-- Header content for the Testimonials section -->
+            <div class="section-header">
+
+                <!-- Testimonials section label -->
+                <span>✨ User Reviews</span>
+
+                <!-- Testimonials section headline -->
+                <h1>Loved by professionals Worldwide</h1>
+
+                <!-- Short description of the user reviews -->
+                <p>See what our users have to say about their experience with our platform</p>
+            </div>
+
+            <!-- Container holding testimonial cards -->
+            <div class="cards">
+
+                <!-- First testimonial card -->
+                <div class="card">
+
+                    <!-- User initials displayed inside the avatar -->
+                    <div class="avatar-circle">SJ</div>
+
+                    <!-- User rating -->
+                    <span>⭐⭐⭐⭐⭐(5 Stars)</span>
+
+                    <!-- User review -->
+                    <p>This AI tool saved me hours of work every week. The quality of out is simply unmatched!</p>
+
+                    <!-- User name -->
+                    <h4>name: Sarah Jenkins</h4>
+
+                    <!-- User job title -->
+                    <h4>Job: Contect Creator</h4>
+                </div>
+
+                <!-- Second testimonial card -->
+                <div class="card">
+
+                    <!-- User initials displayed inside the avatar -->
+                    <div class="avatar-circle">AR</div>
+
+                    <!-- User rating -->
+                    <span>⭐⭐⭐⭐⭐(5 Stars)</span>
+
+                    <!-- User review -->
+                    <p>The interface is super clean and the speed is incredible. Highly recommended for developers!</p>
+
+                    <!-- User name -->
+                    <h4>name: Alex Rivera</h4>
+
+                    <!-- User job title -->
+                    <h4>Job: Software Engineer</h4>
+                </div>
+
+                <!-- Third testimonial card -->
+                <div class="card">
+
+                    <!-- User initials displayed inside the avatar -->
+                    <div class="avatar-circle">MC</div>
+
+                    <!-- User rating -->
+                    <span>⭐⭐⭐⭐⭐(5 Stars)</span>
+
+                    <!-- User review -->
+                    <p>Upgrading to the pro plan was the best decision for our startup. Exceptional support too!</p>
+
+                    <!-- User name -->
+                    <h4>name: Michael Chang</h4>
+
+                    <!-- User job title -->
+                    <h4>Job: Product Designer</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section containing frequently asked questions -->
+        <section id="FAQ" class="FAQ">
+
+            <!-- Header content for the FAQ section -->
+            <div class="section-header">
+
+                <!-- FAQ section label -->
+                <span>✨ Got Questions</span>
+
+                <!-- FAQ section headline -->
+                <h1>Frequently Asked Questions</h1>
+
+                <!-- Short FAQ description -->
+                <p>Everything you need to know about the prodect and billing</p>
+            </div>
+
+            <!-- Container holding all FAQ items -->
+            <div class="faq-container">
+
+                <!-- First FAQ item -->
+                <details class="faq-item">
+
+                    <!-- Clickable FAQ question -->
+                    <summary class="faq-question">
+                        <span>Can I cancel my subscription at any time?</span>
+                        <span class="icon">+</span>
+                    </summary>
+
+                    <!-- Answer displayed when the question is opened -->
+                    <div class="faq-answer">
+                        <p>Yes, you can cancel your subscription at any time from your account settings.</p>
+                    </div>
+                </details>
+
+                <!-- Second FAQ item -->
+                <details class="faq-item">
+
+                    <!-- Clickable FAQ question -->
+                    <summary class="faq-question">
+                        <span>Is there a free trial available?</span>
+                        <span class="icon">+</span>
+                    </summary>
+
+                    <!-- Answer displayed when the question is opened -->
+                    <div class="faq-answer">
+                        <p>Yes! You can start with our Free Plan to test the features before deciding to upgrade.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Final call-to-action section encouraging users to start -->
+        <section id="Final-CTA" class="Final-CTA">
+
+            <!-- Final CTA headline -->
+            <h1>Ready to Boost Your productivity</h1>
+
+            <!-- Final CTA description -->
+            <p>Join thousands of creators and teams already using our AI platform today.</p>
+
+            <!-- Final CTA button -->
+            <button class="cta-btn">Get Started For Free</button>
+        </section>
+
+        <!-- Website footer -->
+        <footer class="footer">
+
+            <!-- Main footer content container -->
+            <div class="footer-container">
+
+                <!-- Footer brand information -->
+                <div class="footer-brand">
+
+                    <!-- Footer logo -->
+                    <div class="logo">✨ AI Tool</div>
+
+                    <!-- Short description of the platform -->
+                    <p class="footer-desc">
+                        Empowering creators and developers with next-generation AI tools.
+                    </p>
+                </div>
+
+                <!-- Product-related footer links -->
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company-related footer links -->
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright information -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Tool. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

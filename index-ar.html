@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <!-- Defines the character encoding used by the page -->
+        <meta charset="UTF-8">
+
+        <!-- Makes the page responsive on different screen sizes -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Sets the title displayed in the browser tab -->
+        <title>المساعد الذكي بالذكاء الاصطناعي</title>
+
+        <!-- Links the external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!-- Main navigation bar containing the logo and navigation links -->
+        <header class="navber">
+
+            <!-- Website logo -->
+            <div class="logo">
+                <span class="logo-hightlight">AI</span>.pro
+            </div>
+
+            <!-- Navigation menu -->
+            <nav class="nav">
+
+                <!-- Link to the Features section -->
+                <a href="#features">المميزات</a>
+
+                <!-- Link to the Pricing section -->
+                <a href="#pricing">الأسعار</a>
+
+                <!-- Link to the language version of the page -->
+                <div class="language-dropdown">
+                    <button class="language-btn" id="languageBtn">
+                  🌐 اللغة
+                    </button>
+
+                    <div class="language-menu" id="languageMenu">
+                        <a href="index-ar.html" data-language="ar">🇪🇬 العربية</a>
+                        <a href="index-en.html" data-language="en">🇺🇸 English</a>
+                    </div>
+                </div>
+
+                <!-- Call-to-action button for starting the service -->
+                <a href="#Try Free" class="btn-primary">جرّب مجانًا</a>
+
+                <!-- Sign-in button -->
+                <a href="#Sign in" class="btn-primary">تسجيل الدخول</a>
+            </nav>
+        </header>
+
+        <!-- Hero section: the main introductory section of the landing page -->
+        <section id="hero-section" class="hero-section">
+
+            <!-- Contains the main hero content -->
+            <div class="hero-contant">
+
+                <!-- Small introductory text above the main heading -->
+                <span>✨ مستقبلك مع <span class="AI-style">الذكاء الاصطناعي</span></span>
+
+                <!-- Main headline of the landing page -->
+                <h1>اعمل بشكل أسرع مع <span class="AI-style">مساعد ذكاء اصطناعي</span> ذكي</h1>
+
+                <!-- Short description explaining the main value of the product -->
+                <p>حوّل أفكارك إلى واقع باستخدام <span class="AI-style">مساعد الذكاء الاصطناعي</span> القوي لدينا. قم بأتمتة سير عملك، وزد إنتاجيتك، واحصل على النتائج في ثوانٍ.</p>
+
+                <!-- Main hero action buttons -->
+                <div class="hero-buttons">
+                    <button class="btn-primary">ابدأ مجانًا</button>
+                    <button class="btn-secondary">استكشف المميزات</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Features section explaining the main benefits of the product -->
+        <section id="features" class="features">
+
+            <!-- Header content for the Features section -->
+            <div class="section-header">
+
+                <!-- Section label -->
+                <span>✨ لماذا تختارنا؟</span>
+
+                <!-- Features section headline -->
+                <h1>كل ما تحتاجه لإنجاز أعمالك بشكل أسرع</h1>
+
+                <!-- Short description of the available features -->
+                <p>اكتشف أدوات قوية مصممة لأتمتة سير عملك، وتوفير ساعات من الجهد اليدوي، والارتقاء بإنتاجيتك إلى المستوى التالي.</p>
+            </div>
+
+            <!-- Container holding all feature cards -->
+            <div class="cards-features">
+
+                <!-- First feature card -->
+                <div class="card-features">
+
+                    <!-- Feature icon -->
+                    <div class="icon-box">⚡</div>
+
+                    <!-- Feature title -->
+                    <h3>سرعة فائقة</h3>
+
+                    <!-- Feature description -->
+                    <p>أنشئ نتائج عالية الجودة خلال أجزاء من الثانية باستخدام محرك <span class="AI-style">الذكاء الاصطناعي</span> المحسّن لدينا.</p>
+                </div>
+
+                <!-- Second feature card -->
+                <div class="card-features">
+
+                    <!-- Feature icon -->
+                    <div class="icon-box">🤖</div>
+
+                    <!-- Feature title -->
+                    <h3>أتمتة ذكية</h3>
+
+                    <!-- Feature description -->
+                    <p>قم بأتمتة مهامك اليومية المتكررة وركّز طاقتك على تطوير وتنمية أعمالك.</p>
+                </div>
+
+                <!-- Third feature card -->
+                <div class="card-features">
+
+                    <!-- Feature icon -->
+                    <div class="icon-box">🛡️</div>
+
+                    <!-- Feature title -->
+                    <h3>أمان على مستوى المؤسسات</h3>
+
+                    <!-- Feature description -->
+                    <p>بياناتك مشفّرة بالكامل ومحمية باستخدام بروتوكولات أمان متوافقة مع معايير الصناعة.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing section containing the available subscription plans -->
+        <section id="pricing" class="pricing">
+
+            <!-- Header content for the Pricing section -->
+            <div class="section-header">
+
+                <!-- Pricing section label -->
+                <span>✨ أسعار مرنة</span>
+
+                <!-- Pricing section headline -->
+                <h1>خطط بسيطة للجميع</h1>
+
+                <!-- Short pricing description -->
+                <p>قم بالترقية أو تغيير الخطة أو الإلغاء في أي وقت.</p>
+            </div>
+
+            <!-- Container holding all pricing cards -->
+            <div class="cards">
+
+                <!-- Free plan card -->
+                <div class="card" id="Free">
+                    <ul>
+                        <li>الاسم: الخطة المجانية</li>
+                        <li>السعر: 0$ /شهريًا</li>
+                        <li>المميزات:
+                            <ul>
+                                <li>50 عملية إنشاء بالذكاء الاصطناعي شهريًا</li>
+                                <li>وصول أساسي إلى النماذج</li>
+                                <li>دعم قياسي</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Free plan call-to-action button -->
+                    <button class="CTA-Button">ابدأ مجانًا</button>
+                </div>
+
+                <!-- Pro plan card -->
+                <div class="card" id="Pro">
+
+                    <!-- Indicates that this is the most popular plan -->
+                    <span>الأكثر شعبية</span>
+
+                    <ul>
+                        
+                        <li>الاسم: Pro</li>
+                        <li>السعر: 19$ /شهريًا</li>
+                        <li>المميزات:
+                            <ul>
+                                <li>عمليات إنشاء غير محدودة بالذكاء الاصطناعي</li>
+                                <li>سرعة معالجة عالية</li>
+                                <li>الوصول إلى النماذج المتقدمة</li>
+                                <li>دعم ذو أولوية على مدار الساعة 24/7</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Pro plan call-to-action button -->
+                    <button class="CTA-Button">الترقية إلى Pro</button>
+                </div>
+
+                <!-- Enterprise plan card -->
+                <div class="card" id="Enterprise">
+                    <ul>
+                        <li>الاسم: Enterprise</li>
+                        <li>السعر: 49$ /شهريًا</li>
+                        <li>المميزات:
+                            <ul>
+                                <li>كل ما هو موجود في خطة Pro</li>
+                                <li>سير عمل مخصص بالذكاء الاصطناعي</li>
+                                <li>مدير حساب مخصص</li>
+                                <li>الوصول إلى API متضمن</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Enterprise plan call-to-action button -->
+                    <button class="CTA-Button">تواصل مع المبيعات</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section displaying user reviews -->
+        <section id="Testimonials" class="Testimonials">
+
+            <!-- Header content for the Testimonials section -->
+            <div class="section-header">
+
+                <!-- Testimonials section label -->
+                <span>✨ آراء المستخدمين</span>
+
+                <!-- Testimonials section headline -->
+                <h1>محبوب من المحترفين حول العالم</h1>
+
+                <!-- Short description of the user reviews -->
+                <p>اكتشف ما يقوله مستخدمونا عن تجربتهم مع منصتنا</p>
+            </div>
+
+            <!-- Container holding testimonial cards -->
+            <div class="cards">
+
+                <!-- First testimonial card -->
+                <div class="card">
+
+                    <!-- User initials displayed inside the avatar -->
+                    <div class="avatar-circle">SJ</div>
+
+                    <!-- User rating -->
+                    <span>⭐⭐⭐⭐⭐ (5 نجوم)</span>
+
+                    <!-- User review -->
+                    <p>هذه الأداة بالذكاء الاصطناعي وفّرت لي ساعات من العمل كل أسبوع. جودة النتائج لا مثيل لها ببساطة!</p>
+
+                    <!-- User name -->
+                    <h4>الاسم: Sarah Jenkins</h4>
+
+                    <!-- User job title -->
+                    <h4>الوظيفة: منشئة محتوى</h4>
+                </div>
+
+                <!-- Second testimonial card -->
+                <div class="card">
+
+                    <!-- User initials displayed inside the avatar -->
+                    <div class="avatar-circle">AR</div>
+
+                    <!-- User rating -->
+                    <span>⭐⭐⭐⭐⭐ (5 نجوم)</span>
+
+                    <!-- User review -->
+                    <p>واجهة الاستخدام نظيفة جدًا والسرعة مذهلة. أوصي بها بشدة للمطورين!</p>
+
+                    <!-- User name -->
+                    <h4>الاسم: Alex Rivera</h4>
+
+                    <!-- User job title -->
+                    <h4>الوظيفة: مهندس برمجيات</h4>
+                </div>
+
+                <!-- Third testimonial card -->
+                <div class="card">
+
+                    <!-- User initials displayed inside the avatar -->
+                    <div class="avatar-circle">MC</div>
+
+                    <!-- User rating -->
+                    <span>⭐⭐⭐⭐⭐ (5 نجوم)</span>
+
+                    <!-- User review -->
+                    <p>الترقية إلى خطة Pro كانت أفضل قرار لشركتنا الناشئة. الدعم أيضًا ممتاز!</p>
+
+                    <!-- User name -->
+                    <h4>الاسم: Michael Chang</h4>
+
+                    <!-- User job title -->
+                    <h4>الوظيفة: مصمم منتجات</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section containing frequently asked questions -->
+        <section id="FAQ" class="FAQ">
+
+            <!-- Header content for the FAQ section -->
+            <div class="section-header">
+
+                <!-- Section label -->
+                <span>✨ لديك أسئلة؟</span>
+
+                <!-- FAQ section headline -->
+                <h1>الأسئلة الشائعة</h1>
+
+                <!-- Short FAQ description -->
+                <p>كل ما تحتاج إلى معرفته عن المنتج والفوترة</p>
+            </div>
+
+            <!-- Container holding all FAQ items -->
+            <div class="faq-container">
+
+                <!-- First FAQ item -->
+                <details class="faq-item">
+
+                    <!-- Clickable FAQ question -->
+                    <summary class="faq-question">
+                        <span>هل يمكنني إلغاء اشتراكي في أي وقت؟</span>
+                        <span class="icon">+</span>
+                    </summary>
+
+                    <!-- Answer displayed when the question is opened -->
+                    <div class="faq-answer">
+                        <p>نعم، يمكنك إلغاء اشتراكك في أي وقت من إعدادات حسابك.</p>
+                    </div>
+                </details>
+
+                <!-- Second FAQ item -->
+                <details class="faq-item">
+
+                    <!-- Clickable FAQ question -->
+                    <summary class="faq-question">
+                        <span>هل توجد فترة تجريبية مجانية؟</span>
+                        <span class="icon">+</span>
+                    </summary>
+
+                    <!-- Answer displayed when the question is opened -->
+                    <div class="faq-answer">
+                        <p>نعم! يمكنك البدء بالخطة المجانية لتجربة المميزات قبل اتخاذ قرار الترقية.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Final call-to-action section encouraging users to start -->
+        <section id="Final-CTA" class="Final-CTA">
+
+            <!-- Final CTA headline -->
+            <h1>هل أنت مستعد لزيادة إنتاجيتك؟</h1>
+
+            <!-- Final CTA description -->
+            <p>انضم اليوم إلى آلاف المبدعين والفرق الذين يستخدمون منصتنا للذكاء الاصطناعي بالفعل.</p>
+
+            <!-- Final CTA button -->
+            <button class="cta-btn">ابدأ مجانًا</button>
+        </section>
+
+        <!-- Website footer -->
+        <footer class="footer">
+
+            <!-- Main footer content container -->
+            <div class="footer-container">
+
+                <!-- Footer brand information -->
+                <div class="footer-brand">
+
+                    <!-- Footer logo -->
+                    <div class="logo">✨ أداة الذكاء الاصطناعي</div>
+
+                    <!-- Short description of the platform -->
+                    <p class="footer-desc">
+                        نُمكّن المبدعين والمطورين من استخدام أدوات الذكاء الاصطناعي من الجيل الجديد.
+                    </p>
+                </div>
+
+                <!-- Product-related footer links -->
+                <div class="footer-links">
+                    <h4>المنتج</h4>
+                    <ul>
+                        <li><a href="#features">المميزات</a></li>
+                        <li><a href="#pricing">الأسعار</a></li>
+                        <li><a href="#faq">الأسئلة الشائعة</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company-related footer links -->
+                <div class="footer-links">
+                    <h4>الشركة</h4>
+                    <ul>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">شروط الخدمة</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright information -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 أداة الذكاء الاصطناعي. جميع الحقوق محفوظة.</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
